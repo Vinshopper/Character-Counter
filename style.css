@@ -276,6 +276,10 @@ body {
 
 /*Adjustments for mobile devices*/
 @media only screen and (max-width: 768px) {
+    /* Hide original stars and shooting star on mobile */
+    .star, .star2, .star3, .star4, .star5, .star6, .star7, .star8, .shooting-star {
+        display: none;
+    }
 
     .container {
         padding: 5px;
