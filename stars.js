@@ -1,4 +1,4 @@
-const numberOfStars = 10;
+const numberOfStars = 20;
 
 function createStar(starType) {
     const star = document.createElement('div');
@@ -23,7 +23,7 @@ function createStars(starType, count = numberOfStars) {
 }
 
 // Star creation
-createStars('star', 2);
+createStars('star', 7);
 setTimeout(() => createStars('star2'));
 setTimeout(() => createStars('star3'), 1000);
 setTimeout(() => createStars('star4'), 2000);
