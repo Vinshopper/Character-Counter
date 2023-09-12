@@ -16,6 +16,7 @@ function createStar(starType) {
     document.body.appendChild(star);
 }
 
+//Creates 'numberOfStars' at once using the creatStar function to position each star randomly.
 function createStars(starType, count = numberOfStars) {
     for (let i = 0; i < count; i++) {
         createStar(starType);
